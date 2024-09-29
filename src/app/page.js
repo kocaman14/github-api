@@ -91,7 +91,7 @@ return (
             {state.user.map((person) => (
               <li key={person.id} className="flex items-center justify-center my-2">
                 <img src={person.avatar_url} alt={person.login} width="50" className="rounded-full" />
-                <a href={person.html_url} target="_blank" rel="noopener noreferrer" className="ml-2 text-blue-500">{person.login}</a>
+                <a href={person.html_url}  className="ml-2 text-blue-500">{person.login}</a>
               </li>
             ))}
           </ul>
